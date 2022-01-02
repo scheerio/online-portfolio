@@ -1,0 +1,95 @@
+.App {
+  margin: 1em;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card.project-card:hover{
+  background-image: linear-gradient(-45deg, #c5e2ff, #debefc, #c7fff9, #d5e2ff);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+	height: 100vh;
+  background-color: transparent;
+  transform: scale(1.01);
+  transition: transform 1s;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.btn-dark.project-button:hover{
+  color: black;
+  background-color: white;
+  transform: scale(1.04);
+}
+
+.btn-light.article-button:hover{
+  color: black;
+  background-color: white !important;
+  transform: scale(1.2);
+}
+
+.btn-dark.link-button:hover{
+  color: black;
+  background-color: white !important;
+  transform: scale(1.1);
+}
+
+.btn-light.media-button{
+  border: 2px solid rgb(205, 205, 205) !important;
+  transform: scale(1.04);
+}
+
+.btn-light.media-button:hover{
+  border: 2px solid rgb(0, 0, 0) !important;
+  transform: scale(1.04);
+}
+
+.bio{
+  max-width: 45em;
+  margin: auto;
+  margin-bottom: 1em;
+}
