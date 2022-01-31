@@ -11,7 +11,8 @@ const randomColors = [
 '#debefc',
 '#D37EFF',
 '#FFFDC6',
-'#DFFFF7'
+'#DFFFF7',
+'#EdddF7'
 ];
 
 const projects = [
