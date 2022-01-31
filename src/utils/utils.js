@@ -250,7 +250,7 @@ const articles = [
     },
     {
         id: 15,
-        topic: 'Dependencies',
+        topic: 'Project Dependencies',
         link: 'https://benscheer.medium.com/how-to-install-nvm-and-node-on-macos-m1-silicon-in-2022-172fba82d92f'
     },
     {
