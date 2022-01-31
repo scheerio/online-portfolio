@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Button, Card, ButtonToolbar, ButtonGroup } from 'react-bootstrap';
-import { getProjects } from '../utils/utils';
+import { getProjects, getRandomColor } from '../utils/utils';
 
 const Projects = () => {
 
@@ -14,15 +14,15 @@ const Projects = () => {
                 <Row xs={1} md={2}>
                     {projects.map((project) => (
                     <Col key={project.id} lg="6" className="g-3">
-                        <Card className="h-100 p-2 border-2 rounded-3 project-card">
+                        <Card className="h-100 p-2 border-2 rounded-3 project-card" style={{backgroundColor: getRandomColor()}}>
                         <Card.Body>
                             <Card.Title>{project.name}</Card.Title>
                             <Card.Text>
                             {project.description}
                             </Card.Text>
-                            <ButtonToolbar aria-label="Toolbar with button groups">
+                            <ButtonToolbar aria-label="Toolbar with button groups" className="d-flex align-items-center justify-content-center">
                                 {project.links.map((link) => (
-                                <ButtonGroup className="me-2">
+                                <ButtonGroup className="p-1">
                                     {link.available ? 
                                     <Button key={link.id} href={link.link} target="_blank" variant="dark" className="project-button">{link.title}</Button>
                                     : <Button key={link.id} variant="light">{link.title}</Button>

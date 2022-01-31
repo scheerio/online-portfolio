@@ -8,11 +8,11 @@ const Links = () => {
 
     return (
         <div>
-            <Container className="pb-4 mb-4 border-bottom d-flex align-items-center justify-content-center">
-                <ButtonToolbar aria-label="Toolbar with button groups">
+            <Container className="pb-4 mb-4 border-bottom">
+                <ButtonToolbar aria-label="Toolbar with button groups" className="d-flex align-items-center justify-content-center">
                     {personalLinks.map((link) => (
-                    <ButtonGroup className="me-2">
-                        <Button key={link.id} href={link.link} target="_blank" variant="dark" className="link-button border-1">{link.title}</Button>
+                    <ButtonGroup className="p-1">
+                        <Button key={link.id} href={link.link} target="_blank" variant="light" className="article-button border-2" style={{backgroundColor: getRandomColor()}}>{link.title}</Button>
                     </ButtonGroup>
                     ))}
                 </ButtonToolbar>

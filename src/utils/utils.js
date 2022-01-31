@@ -4,20 +4,21 @@ import linkedInIcon from '../assets/linkedin_icon.png';
 const randomColors = [
 '#fff6e9',
 '#ffefd7',
-'#fffef9',
+'#affef9',
 '#e3f0ff',
-'#d2e7ff',
+'#a2d7ff',
 '#c5e2ff', 
-'#debefc', 
-'#c7fff9', 
-'#d5e2ff'
+'#debefc',
+'#D37EFF',
+'#FFFDC6',
+'#DFFFF7'
 ];
 
 const projects = [
     {
         id: 0,
         name: 'Scheerio',
-        description: 'A virtual reality venture. Using new WebVR technology, I developed virtual reality experiences (from scratch) for people trying to promote and brand themselves in a new way. These experiences were made to be used anywhere, anytime, no headset needed. My niche was the music industry. To get the attention of high-profile artists, I had to sell the idea over dozens of phone calls and create over a hundred demos. The result: I collaborated with several artists (including a member of the Dave Matthews Band) and got to have Skype calls with several of my musical idols. I have never been so star struck.',
+        description: 'A virtual reality venture. Using new WebVR technology, I developed virtual reality experiences (from scratch) for people trying to promote and brand themselves in a new way. These experiences were made to be used anywhere, anytime, no headset needed. My niche was the music industry. To get the attention of high-profile artists, I had to sell the idea over dozens of phone calls and create over a hundred demos. The result: I collaborated with several artists (including a member of the Dave Matthews Band) and was lucky enough to have Skype calls with several of my musical idols. I have never been so star struck.',
         links: [
             {
                 id: 0,
@@ -30,7 +31,7 @@ const projects = [
     {
         id: 1,
         name: 'Orangutan Enrichment Project',
-        description: 'Helping improve the lives of orangutans in Zoo Atlanta. Orangutans are very intelligent primates. In fact, in their Zoo Atlanta exhibit, there is a touch screen built inside one of their trees for them to use. However, they did not have fun games on it! As part of Vanderbilt University research, I led a team to complete a multi-purpose application for the touchscreen in the orangutan exhibit. It has orangutan-friendly games to play, music to listen to, and videos to watch. Behind the scenes, a log is collecting data to observe their behavior. It turns out that they like it, so we can perhaps apply our model and learnings to other primate exhibits around the world. My teammate and I ended up presenting our work at CogSci 2019 in Montreal. I am first author on the paper about it, published by the Cognitive Science Society.',
+        description: 'An app to help improve the lives of orangutans in Zoo Atlanta. Orangutans are very intelligent primates. In fact, in their Zoo Atlanta exhibit, there is a touchscreen built inside one of their trees for them to use. However, they did not have fun games on it! So, as part of Vanderbilt University research, I led a team to complete a multi-purpose application for the touchscreen in the orangutan exhibit. It has orangutan-friendly games to play, music to listen to, and videos to watch. Behind the scenes, a log is collecting data to observe their behavior. It turns out that they liked it, so our model and learnings could be applied to other primate exhibits around the world. My teammate and I ended up presenting our work at CogSci 2019 in Montreal. I am the primary author on the paper about it, published by the Cognitive Science Society.',
         links: [
             {
                 id: 0,
@@ -62,7 +63,7 @@ const projects = [
     {
         id: 3,
         name: 'Kegatron',
-        description: 'On occasion, folks do enjoy beer using kegs. But what if the kegs are low on beer? I teamed up with two colleagues to create a system that can monitor the amount of beer in the kegs in the kitchen. To make this happen, we used four programming languages, Internet of Things, math, and electrical engineering. The end result is an Web app in the kitchen that tells you percent fullness of each keg.',
+        description: 'On occasion, folks do enjoy beer using kegs. But what if the kegs are low on beer? I teamed up with two colleagues to create a system that can monitor the amount of beer in the kegs in the kitchen. To make this happen, we used four programming languages, Internet of Things, math, and electrical engineering. The result? A Web app in the office kitchen that displayed percent fullness of each keg.',
         links: [
             {
                 id: 0,
@@ -88,7 +89,7 @@ const projects = [
     {
         id: 5,
         name: 'DRUMMR',
-        description: 'A drummer on tap. Drops whatever groove you want. Now, you can have a drummer whenever you or your band needs it. DRUMMR is as simple as it gets. Just choose the genre, style, meter, and speed you want, and it plays the drums for you. Plug into some loud speakers, and things get real. If you want to blast some heavy rock in 3/4, rap some verses in 13/4, or practice a solo in 9/4, DRUMMR can handle it all.',
+        description: 'A drummer on tap, made especially for musicians. This app solved a personal problem of mine. My friends and I used to get together for music jam sessions (I play piano), but not having a drummer present made it much more difficult to practice together. I looked to tools like GarageBand for creating custom drumming, but that solution did not work for a few reasons, and there were no apps that existed to fix our problem. DRUMMR, the iOS app, was made to drop whatever groove you wanted, so you could have a drummer present whenever you or your band needed it. DRUMMR was as simple as it gets. Just choose the genre, style, meter, and speed you want, and it played the drums for you. Plug into some loud speakers, and things got real. If you wanted to blast some heavy rock in 3/4, rap some verses in 13/4, or practice a solo in 9/4, DRUMMR could handle it all.',
         links: [
             {
                 id: 0,
@@ -101,7 +102,7 @@ const projects = [
     {
         id: 6,
         name: 'Spark Your Idea',
-        description: 'Come up with ideas. Spark your next big one. Inspired by a lecture about creativity that I attended during my freshman year at Vanderbilt University, I developed an iPhone application that helps you spark creative ideas. The app emulates a strategy that successful and creative businesses use to come up with new ideas. Used by a Vanderbilt professor for his course, the app is open to anyone who wants to practice creative thinking and even spark their next big idea.',
+        description: 'Come up with ideas. Spark your next big one. Inspired by a lecture about creativity that I attended during my freshman year at Vanderbilt University, I developed an iOS application that helped you spark creative ideas. The app emulates a strategy that successful and creative businesses use to come up with new ideas. Used by a Vanderbilt professor for his course, the app was open to anyone who wanted to practice creative thinking and even spark their next big idea. This was the app that launched my software engineering journey!',
         links: [
             {
                 id: 0,
@@ -127,7 +128,7 @@ const projects = [
     {
         id: 7,
         name: 'Real Razor Pro (Prank)',
-        description: 'A not-so-useful, funny app. Prank your friends. When I create apps, I also keep my eye on what is trending in the marketplace. For some reason, a lot of people were downloading prank hair razor apps. As an experiment, I made my own and put it out there. Surprisingly, it has received a bunch of downloads.',
+        description: 'A not-so-useful, funny app for pranking your friends. When I create new products, I also keep my eye on what is trending in the marketplace. For some reason, a lot of people were downloading prank hair razor apps. As an experiment, I made my own and put it out there. Surprisingly, it received a bunch of downloads.',
         links: [
             {
                 id: 0,
@@ -140,8 +141,15 @@ const projects = [
     {
         id: 8,
         name: 'My Porfolio (This Website!)',
-        description: 'To fulfill my online portfolio needs, I built this website from scratch using React Bootstrap. Hope you like it!',
-        links: []
+        description: 'To fulfill my online portfolio needs, I built this website from scratch using React + React Bootstrap and deployed it using Netlify. Hope you like it!',
+        links: [
+            {
+                id: 0,
+                title: 'View Story 📝',
+                link: 'https://benscheer.medium.com/i-rebuilt-my-online-portfolio-from-scratch-using-react-heres-what-i-learned-fdd9696e9091',
+                available: true
+            }
+        ]
     }
 ];
 
@@ -241,6 +249,21 @@ const articles = [
     },
     {
         id: 15,
+        topic: 'Dependencies',
+        link: 'https://benscheer.medium.com/how-to-install-nvm-and-node-on-macos-m1-silicon-in-2022-172fba82d92f'
+    },
+    {
+        id: 16,
+        topic: 'REST API',
+        link: 'https://javascript.plainenglish.io/a-short-introduction-to-using-stripe-api-with-javascript-9c83f89af1e1'
+    },
+    {
+        id: 17,
+        topic: 'Data Structures',
+        link: 'https://benscheer.medium.com/deep-dive-how-to-create-a-data-structure-that-handles-insert-delete-and-getrandom-in-o-1-time-f79c74dc4de5'
+    },
+    {
+        id: 18,
         topic: 'App Security',
         link: 'https://blog.devgenius.io/quick-tutorial-how-to-deal-with-secret-keys-in-react-apps-97e886c5d2a3'
     }
@@ -409,30 +432,26 @@ const podcasts = [
         },
         {
             id: 9,
-            name: 'The Jordan B. Peterson Podcast'
-        },
-        {
-            id: 10,
             name: 'The Joe Rogan Experience'
         },
         {
-            id: 11,
+            id: 10,
             name: 'How I Built This'
         },
         {
-            id: 12,
+            id: 11,
             name: 'The Mindset Mentor'
         },
         {
-            id: 13,
+            id: 12,
             name: 'How To Start A Startup'
         },
         {
-            id: 14,
+            id: 13,
             name: 'SmartLess'
         },
         {
-            id: 15,
+            id: 14,
             name: 'Naval'
         }
     ]
