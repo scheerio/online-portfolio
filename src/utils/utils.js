@@ -19,7 +19,7 @@ const projects = [
     {
         id: 0,
         name: 'GimmePuzzles',
-        description: 'A humble home for new, challenging puzzles, including an new game I created called Wordpunch. I built this website using React + Typescript + Next.js + TailwindCSS and deployed it using Vercel. This combination was extremely efficient. By design, this project supports server-side rendering and it is worthy to note that Wordpunch simply uses local storage to track user activity. If you have a game idea and want to turn it into reality, I designed this website for easy collaboration. This way, other engineers can have an opportunity to add their own ideas! In the future, I would like to complete additional features like stats and game popularity rankings.',
+        description: 'A humble home for new, challenging puzzles, including an new game I created called Wordpunch. I built this website using React + TypeScript + Next.js + TailwindCSS and deployed it using Vercel. This combination was extremely efficient. By design, this project supports server-side rendering and it is worthy to note that Wordpunch simply uses local storage to track user activity. If you have a game idea and want to turn it into reality, I designed this website for easy collaboration. This way, other engineers can have an opportunity to add their own ideas! In the future, I would like to complete additional features like stats and game popularity rankings.',
         links: [
             {
                 id: 0,
