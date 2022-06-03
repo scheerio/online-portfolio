@@ -399,6 +399,10 @@ const books = [
         {
             id: 27,
             name: 'Tribe of Mentors'
+        },
+        {
+            id: 28,
+            name: 'Build (Tony Fadell)'
         }
     ]
 ];
