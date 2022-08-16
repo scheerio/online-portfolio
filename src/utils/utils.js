@@ -280,6 +280,11 @@ const articles = [
         id: 18,
         topic: 'App Security',
         link: 'https://blog.devgenius.io/quick-tutorial-how-to-deal-with-secret-keys-in-react-apps-97e886c5d2a3'
+    },
+    {
+        id: 19,
+        topic: 'System Design',
+        link: 'https://benscheer.medium.com/a-5-step-guide-to-system-design-caa6fb158edb'
     }
 ];
 
@@ -407,6 +412,14 @@ const books = [
         {
             id: 29,
             name: 'Zero to One'
+        },
+        {
+            id: 30,
+            name: 'Rich Dad Poor Dad'
+        },
+        {
+            id: 31,
+            name: 'Shoe Dog'
         }
     ]
 ];
