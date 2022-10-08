@@ -420,6 +420,14 @@ const books = [
         {
             id: 31,
             name: 'Shoe Dog'
+        },
+        {
+            id: 32,
+            name: 'I Will Teach You to Be Rich'
+        },
+        {
+            id: 33,
+            name: 'Hooked'
         }
     ]
 ];
