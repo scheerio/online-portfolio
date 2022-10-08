@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div>
             <Card className="text-center">
-                <Card.Footer className="text-muted">&copy; 2022 Ben Scheer</Card.Footer>
+                <Card.Footer className="text-muted">&copy; {new Date().getFullYear()} Ben Scheer</Card.Footer>
             </Card>
         </div>
     )
