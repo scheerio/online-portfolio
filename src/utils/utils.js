@@ -36,8 +36,8 @@ const projects = [
     },
     {
         id: 1,
-        name: 'Scheerio',
-        description: 'A virtual reality venture. Using new WebVR technology, I developed virtual reality experiences (from scratch) for people trying to promote and brand themselves in a new way. These experiences were made to be used anywhere, anytime, no headset needed. My niche was the music industry. To get the attention of high-profile artists, I had to sell the idea over dozens of phone calls and create over a hundred demos. The result: I collaborated with several artists (including a member of the Dave Matthews Band) and was lucky enough to have Skype calls with several of my musical idols. I have never been so star struck.',
+        name: 'WebVR for Music',
+        description: 'A virtual reality venture. Using new WebVR technology, I developed virtual reality experiences (from scratch) for people trying to promote and brand themselves in a new way. These experiences were made to be used anywhere, anytime, no headset needed. My niche was the music industry. To get the attention of high-profile artists, I had to sell the idea over dozens of phone calls and create over a hundred demos. The result: I collaborated with several artists (including a member of the Dave Matthews Band), and was lucky enough to have Skype calls with several of my musical idols. I have never been so star struck.',
         links: [
             {
                 id: 0,
