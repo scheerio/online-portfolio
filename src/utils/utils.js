@@ -433,6 +433,14 @@ const books = [
         {
             id: 33,
             name: 'Hooked'
+        },
+        {
+            id: 34,
+            name: 'The Millionaire Next Door'
+        },
+        {
+            id: 35,
+            name: 'Adrift'
         }
     ]
 ];
@@ -501,6 +509,14 @@ const podcasts = [
         {
             id: 14,
             name: 'Naval'
+        },
+        {
+            id: 15,
+            name: 'BiggerPockets Daily'
+        },
+        {
+            id: 16,
+            name: 'Afford Anything'
         }
     ]
 ];;
