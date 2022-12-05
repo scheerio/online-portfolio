@@ -303,6 +303,11 @@ const articles = [
         id: 19,
         topic: 'System Design',
         link: 'https://benscheer.medium.com/a-5-step-guide-to-system-design-caa6fb158edb'
+    },
+    {
+        id: 20,
+        topic: 'React+Python',
+        link: 'https://benscheer.medium.com/no-more-losing-links-in-slack-heres-my-react-python-solution-fa984778fd48?sk=7764660fd32cc530cd77f09251a64c4e'
     }
 ];
 
