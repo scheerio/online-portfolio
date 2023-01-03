@@ -29,7 +29,7 @@ const projects = [
             {
                 id: 0,
                 title: 'View Website 💻',
-                link: 'https://www.gimmepuzzles.com/',
+                link: 'https://gimmepuzzles.vercel.app/',
                 available: true
             }
         ]
