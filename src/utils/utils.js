@@ -491,6 +491,18 @@ const books = [
         {
             id: 35,
             name: 'Adrift'
+        },
+        {
+            id: 36,
+            name: 'The Sh*t They Never Taught You'
+        },
+        {
+            id: 37,
+            name: 'The Artists\' Way'
+        },
+        {
+            id: 38,
+            name: 'The Happiness Advantage'
         }
     ]
 ];
