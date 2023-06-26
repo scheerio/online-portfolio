@@ -503,6 +503,14 @@ const books = [
         {
             id: 38,
             name: 'The Happiness Advantage'
+        },
+        {
+            id: 39,
+            name: 'Designing Your Life'
+        },
+        {
+            id: 40,
+            name: 'The Startup of You'
         }
     ]
 ];
