@@ -231,7 +231,7 @@ const personalLinks = [
     {
         id: 2,
         title: 'Resume 📄',
-        link: 'https://tinyurl.com/stfcwche'
+        link: 'https://docs.google.com/document/d/189Bsh7I6Bg3dIaSMov2U0mLXU2F_ApfSMpYfmbAsFfg/edit?usp=sharing'
     }
 ];
 
