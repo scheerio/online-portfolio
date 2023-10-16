@@ -8,8 +8,8 @@ const Projects = () => {
 
     return (
         <div>
-            <h2 className="fs-3 mt-4">Project Gallery</h2>
-            <p>These are some projects I've done.</p>
+            <h2 className="fs-3 mt-4">Project Gallery 💡</h2>
+            <p>Learn about projects I have completed.</p>
             <Container className="pb-4 mb-4 border-bottom">
                 <Row xs={1} md={2}>
                     {projects.map((project) => (
