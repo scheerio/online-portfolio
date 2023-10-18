@@ -43,12 +43,6 @@ const projects = [
     links: [
       {
         id: 0,
-        title: "View Repo 💻",
-        link: "https://github.com/scheerio/aime",
-        available: true,
-      },
-      {
-        id: 1,
         title: "View Demo 💻",
         link: "https://drive.google.com/file/d/1GucMa6npXNF30B0eA_pR23_x0p9QHVbK/view?usp=sharing",
         available: true,
