@@ -125,8 +125,8 @@ const projects = [
       },
       {
         id: 1,
-        title: "View Paper 📝",
-        link: "https://cogsci.mindmodeling.org/2019/papers/0467/index.html",
+        title: "View Paper (page 2741) 📝",
+        link: "https://cognitivesciencesociety.org/wp-content/uploads/2019/07/cogsci19_proceedings-8July2019-compressed.pdf",
         available: true,
       },
     ],
