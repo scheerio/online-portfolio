@@ -44,7 +44,7 @@ const projects = [
       {
         id: 0,
         title: "View Demo 💻",
-        link: "https://drive.google.com/file/d/1GucMa6npXNF30B0eA_pR23_x0p9QHVbK/view?usp=sharing",
+        link: "https://drive.google.com/file/d/1tzKx_OkmgZTFZAQMS833p7gGGMWhPv7H/view?usp=sharing",
         available: true,
       },
     ],
