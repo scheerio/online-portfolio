@@ -441,7 +441,7 @@ const books = [
     },
     {
       id: 11,
-      name: "Atomic Habits",
+      name: "Storyworthy",
     },
     {
       id: 12,
@@ -569,10 +569,6 @@ const books = [
     },
     {
       id: 43,
-      name: "Storyworthy",
-    },
-    {
-      id: 44,
       name: "How to Teach Quantum Physics to Your Dog",
     },
   ],
