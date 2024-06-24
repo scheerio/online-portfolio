@@ -273,7 +273,7 @@ const personalLinks = [
   {
     id: 2,
     title: "Resume 📄",
-    link: "https://drive.google.com/file/d/1GffccrLao9LF1ntVc3h7GS0VZ7-TMOim/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1jI7lzAtrRqWPaPPbF2eLYunhJm5wUZ3x/view?usp=sharing",
   },
 ];
 
