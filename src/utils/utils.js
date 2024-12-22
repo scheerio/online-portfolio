@@ -23,6 +23,20 @@ const randomColors = [
 const projects = [
   {
     id: 0,
+    name: "Figure8 Maps",
+    description:
+      "The idea for Figure8 Maps came to me while prepping for a road trip to Maine for hiking and camping. I had a big list of ideas for the trip, but wanted an easier way to visualize and plan each of the days. My solution? A full-stack web app allowing users to create custom interactive maps for trip planning, specifically focused on hiking and camping adventures. It includes authentication for account login, database integration, and Google Maps integration. I built it using React, TypeScript, TailwindCSS, Google Firebase / Firestore, and Netlify for production deployment. I use Figure8 Maps to plan my adventures, remember what I did, and share with friends. You can try it out below!",
+    links: [
+      {
+        id: 0,
+        title: "View Website 💻",
+        link: "https://figure8maps.com/",
+        available: true,
+      },
+    ],
+  },
+  {
+    id: 1,
     name: "GimmePuzzles",
     description:
       "A humble home for new, challenging puzzles, including an new game I created called Wordpunch. I built this website using React + TypeScript + Next.js + TailwindCSS and deployed it using Vercel. This combination was extremely efficient. By design, this project supports server-side rendering and it is worthy to note that Wordpunch simply uses local storage to track user activity. If you have a game idea and want to turn it into reality, I designed this website for easy collaboration. This way, other engineers can have an opportunity to add their own ideas! In the future, I would like to complete additional features like stats and game popularity rankings.",
@@ -36,7 +50,7 @@ const projects = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     name: "AI for PDFs",
     description:
       "I wanted to use AI to ask questions about my PDFs...so I built my own solution. With a React + JavaScript frontend and Node + Express backend, this LLM project lets you drag in any PDF, ask any question, and get a solid answer. For example, you can drag in a research paper and ask, can you summarize this for a 5-year-old? Under the hood, the frontend handles user input while the server handles parsing the PDF and using the OpenAI API to generate AI-based answers. I had to address certain challenges, such as how to handle very long PDFs. I am excited to keep improving this project!",
@@ -50,7 +64,7 @@ const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: "Slack Links",
     description:
       "Like lots of folks here, I use Slack. It is awesome, but with lots of messaging going on, it is sometimes hard to keep up with all the interesting links that people share daily within public channels (articles, videos, etc.). Even if you can keep up, it is not always the most convenient to go back in time to revisit links from months ago. I was looking for a way to specifically get all links posted in a channel and view them all in one simple place. I could not find a way, so I decided to make one myself with React and Python. This technical solution is nothing mind-blowing, but it helps.",
@@ -70,7 +84,7 @@ const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     name: "AWS Lambda Local",
     description:
       "AWS Lambda is a serverless service a lot of tech teams use in projects. I wanted to put together a concise guide and example on how to run AWS Lambda functions locally. This tiny project touches on AWS SAM CLI, API Gateway, and more.",
@@ -84,7 +98,7 @@ const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     name: "React Button Builder",
     description:
       "An easier way to bring Figma component designs to life in React code. I love Figma as a design tool, but designers are limited in that it is challenging to showcase component animations, interactions, and different states in action. Additionally, engineers have to code these from scratch. I collaborated with a team of 5 engineers to develop both a Figma plugin and web client to tackle this problem, starting with button components as a simple use case. Once a user uploads their button design from Figma via the plugin, the web client leverages Figma design metadata to generate their button in React code. In addition, it generates different states and animations for you by default (e.g., hover animations) which you can edit using our component editor. I mainly worked on the animations and transitions aspect of the tool, which allows users to control how their button works. Out tool was accepted into the Figma community and was available to the public for some time.",
@@ -98,7 +112,7 @@ const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     name: "WebVR for Music",
     description:
       "A virtual reality venture. Using new WebVR technology, I developed virtual reality experiences (from scratch) for people trying to promote and brand themselves in a new way. These experiences were made to be used anywhere, anytime, no headset needed. My niche was the music industry. To get the attention of high-profile artists, I had to sell the idea over dozens of phone calls and create over a hundred demos. The result: I collaborated with several artists (including a member of the Dave Matthews Band), and was lucky enough to have Skype calls with several of my musical idols. I have never been so star struck.",
@@ -112,7 +126,7 @@ const projects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     name: "Orangutan Enrichment Project",
     description:
       "An app to help improve the lives of orangutans in Zoo Atlanta. Orangutans are very intelligent primates. In fact, in their Zoo Atlanta exhibit, there is a touchscreen built inside one of their trees for them to use. However, they did not have fun games on it! So, as part of Vanderbilt University research, I led a team to complete a multi-purpose application for the touchscreen in the orangutan exhibit. It has orangutan-friendly games to play, music to listen to, and videos to watch. Behind the scenes, a log is collecting data to observe their behavior. It turns out that they liked it, so our model and learnings could be applied to other primate exhibits around the world. My teammate and I ended up presenting our work at CogSci 2019 in Montreal. I am the primary author on the paper about it, published by the Cognitive Science Society.",
@@ -132,7 +146,7 @@ const projects = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     name: "Python Person Database",
     description:
       "What does it look like to build a Python-based database? I implemented a simple program that can store, retrieve, and delete information from a database using Python and SQLite. Executing SQL within Python is fun stuff!",
@@ -146,7 +160,7 @@ const projects = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     name: "Doorbell",
     description:
       "An office can get lots of visitors on a daily basis. I built a Web app that uses HTML, CSS, JavaScript, Slack API, Glitch, Node, Express, Logic, and Sketch to greet visitors in a new way at a marketing and advertising firm. That said, it needed to be up-to-par with the company aestetic, which I made sure to take into account. After some user testing, I was able to immediately implement the app at an office and see it in action. I collaborated with colleagues to bring it to life, and learned that a simple Web app can involve a lot of parts. Greetings increased by over 400%.",
@@ -160,7 +174,7 @@ const projects = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     name: "Kegatron",
     description:
       "On occasion, folks do enjoy beer using kegs. But what if the kegs are low on beer? I teamed up with two colleagues to create a system that can monitor the amount of beer in the kegs in the kitchen. To make this happen, we used four programming languages, Internet of Things, math, and electrical engineering. The result? A Web app in the office kitchen that displayed percent fullness of each keg.",
@@ -174,7 +188,7 @@ const projects = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     name: "Billbid",
     description:
       "There’s a lot of talk about augmented reality (AR) nowadays, whether it’s Snapchat face filters, Pokemon Go, or Apple’s measuring tool. I created an app that lets you edit some of the billboard ads around Nashville through the perspective of your phone screen, allowing you to block ads or replace them with different ones. I did it using a 3D engine, image recognition, AR, iOS development, and photography. I also managed to make a website associated with the concept. Just thinking ahead into the future of the advertising industry!",
@@ -188,7 +202,7 @@ const projects = [
     ],
   },
   {
-    id: 11,
+    id: 12,
     name: "DRUMMR",
     description:
       "A drummer on tap, made especially for musicians. This app solved a personal problem of mine. My friends and I used to get together for music jam sessions (I play piano), but not having a drummer present made it much more difficult to practice together. I looked to tools like GarageBand for creating custom drumming, but that solution did not work for a few reasons, and there were no apps that existed to fix our problem. DRUMMR, the iOS app, was made to drop whatever groove you wanted, so you could have a drummer present whenever you or your band needed it. DRUMMR was as simple as it gets. Just choose the genre, style, meter, and speed you want, and it played the drums for you. Plug into some loud speakers, and things got real. If you wanted to blast some heavy rock in 3/4, rap some verses in 13/4, or practice a solo in 9/4, DRUMMR could handle it all.",
@@ -202,7 +216,7 @@ const projects = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     name: "Spark Your Idea",
     description:
       "Come up with ideas. Spark your next big one. Inspired by a lecture about creativity that I attended during my freshman year at Vanderbilt University, I developed an iOS application that helped you spark creative ideas. The app emulates a strategy that successful and creative businesses use to come up with new ideas. Used by a Vanderbilt professor for his course, the app was open to anyone who wanted to practice creative thinking and even spark their next big idea. This was the app that launched my software engineering journey!",
@@ -216,7 +230,7 @@ const projects = [
     ],
   },
   {
-    id: 13,
+    id: 14,
     name: "Photobilities",
     description:
       "Capturing the beauty in all of us. During high school, I started a photography business for children with special needs. My younger brother has autism, and, because I understood the struggle of getting photos of him that my family could be proud of, I decided to start Photobilities in my community, the Washington D.C. metropolitan area. I traveled to families’ homes, did photo shoots for their families, and gave them photos that they could be proud of. Because of its success in my community, I created a website and trademarked the name.",
@@ -230,7 +244,7 @@ const projects = [
     ],
   },
   {
-    id: 14,
+    id: 15,
     name: "Real Razor Pro (Prank)",
     description:
       "A not-so-useful, funny app for pranking your friends. When I create new products, I also keep my eye on what is trending in the marketplace. For some reason, a lot of people were downloading prank hair razor apps. As an experiment, I made my own and put it out there. Surprisingly, it received a bunch of downloads.",
@@ -244,7 +258,7 @@ const projects = [
     ],
   },
   {
-    id: 15,
+    id: 16,
     name: "My Porfolio (This Website!)",
     description:
       "To fulfill my online portfolio needs, I built this website from scratch using React + React Bootstrap and deployed it using Netlify. Hope you like it!",
