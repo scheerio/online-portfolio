@@ -402,6 +402,11 @@ const articles = [
     topic: "React Context",
     link: "https://medium.com/javascript-in-plain-english/react-context-in-a-nutshell-18e76777a503",
   },
+  {
+    id: 22,
+    topic: "AWS VPCs",
+    link: "https://benscheer.medium.com/understanding-aws-vpcs-1a9a21789ba7",
+  },
 ];
 
 const books = [
