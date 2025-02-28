@@ -631,11 +631,11 @@ const podcasts = [
     },
     {
       id: 8,
-      name: "The Jordan B. Peterson Podcast",
+      name: "My First Million",
     },
     {
       id: 9,
-      name: "The Joe Rogan Experience",
+      name: "The Pragmatic Engineer",
     },
     {
       id: 10,
