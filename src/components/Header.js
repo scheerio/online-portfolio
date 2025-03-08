@@ -13,7 +13,7 @@ const Header = () => {
             className="w-full h-full object-cover rounded"
           />
         </div>
-        <h1 className="fs-1 font-semibold">Ben's Porfolio 📚</h1>
+        <h1 className="fs-1 font-semibold">Ben's Portfolio 📚</h1>
         <p className="bio mt-2">
           <strong>Welcome!</strong> I'm Ben Scheer, a software
           engineer who loves designing, building, and launching digital

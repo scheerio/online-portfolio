@@ -259,7 +259,7 @@ const projects = [
   },
   {
     id: 16,
-    name: "My Porfolio (This Website!)",
+    name: "My Portfolio (This Website!)",
     description:
       "To fulfill my online portfolio needs, I built this website from scratch using React + React Bootstrap and deployed it using Netlify. Hope you like it!",
     links: [
